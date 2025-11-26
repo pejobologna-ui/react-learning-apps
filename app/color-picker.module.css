@@ -1,0 +1,63 @@
+.colorPickerContainer {
+  min-height: 100vh;
+  padding: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.header {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: black;
+  text-shadow: none;
+}
+
+.titleWhite {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.colorButton {
+  color: white;
+  border: black;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.colorButton:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+.redButton {
+  background-color: red;
+}
+
+.blueButton {
+  background-color: blue;
+}
+
+.greenButton {
+  background-color: green;
+}
+
+.whiteButton {
+    background-color: white;
+    color: black;
+    margin-top: auto;
+  }
